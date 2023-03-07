@@ -6,8 +6,8 @@ on:
       - "release/**"
 
       # exclude bot pushes to avoid infinite loop
-    paths-ignore:
-      - 'sample_action.yml'
+    # paths-ignore:
+    #   - 'sample_action.yml'
 jobs:
   watch-changes-in-release-branch:
     runs-on: ubuntu-latest
