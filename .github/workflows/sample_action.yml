@@ -1,4 +1,4 @@
-name: 'Generate Release logs',
+name: 'Generate Release logs'
 on:
   pull_request:
       - opened
