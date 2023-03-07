@@ -1,0 +1,25 @@
+name: 'Generate Release logs',
+on:
+  pull_request:
+      - opened
+    branches:
+      # branches in the case of PR specifies target/base branch
+      - 'release/*'
+jobs:
+  watch-changes-in-release-branch:
+     runs-on: ubuntu-latest
+     steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Create File
+        run: echo "Hello, World!" > example.txt
+      - name: Commit Files
+        run: |
+          git config --global user.email "bot@github.com"
+          git config --global user.name "Bot"
+          git add .
+          git commit -m "Add example.txt"
+      - name: Push Changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: main
