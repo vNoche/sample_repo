@@ -4,6 +4,10 @@ on:
     branches:
       # branches in the case of PR specifies target/base branch
       - "release/**"
+      
+      # exclude bot pushes to avoid infinite loop
+    paths-ignore:
+      - 'main.yml'
 jobs:
   watch-changes-in-release-branch:
     runs-on: ubuntu-latest
@@ -19,6 +23,6 @@ jobs:
           git add .
           git commit -m "Add example.txt"
       - name: Push Changes
-        uses: ad-m/github-push-action@master
+         run: git push origin HEAD:$GITHUB_REF
         with:
           branch: main
