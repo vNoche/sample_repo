@@ -23,6 +23,6 @@ jobs:
           git add .
           git commit -m "Add example.txt"
       - name: Push Changes
-         run: git push origin HEAD:$GITHUB_REF
+         uses: ad-m/github-push-action@master
         with:
           branch: main
