@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v1
       - name: Create File
         run: echo "Hello, World!" > example.txt
-      - name: Commit Files
+      # - name: Commit Files
         # run: |
         #   git config --global user.email "bot@github.com"
         #   git config --global user.name "Bot"
@@ -26,5 +26,4 @@ jobs:
          uses: stefanzweifel/git-auto-commit-action@v4
          with:
           commit_message: "chore: format code with prettier"
-          commit_options: "--no-verify"
           branch:  main #${{ github.head_ref }}
