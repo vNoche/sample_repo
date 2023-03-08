@@ -1,0 +1,22 @@
+# dependencies
+/node_modules
+
+# alta legacy ignore
+/node_modules
+/dist
+/dist-*
+/private
+.DS_Store
+yarn-error.log
+.vscode
+.idea
+stats.json
+/coverage
+/cypress
+/stats
+.log
+/logs
+
+changelog.json
+CHANGELOGTABLE.md
+CHANGELOG-release-notes-table.md

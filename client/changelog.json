@@ -1,0 +1,54 @@
+{
+  "unreleased": {
+    "title": "Unreleased",
+    "date": null,
+    "commits": [
+      {
+        "fullHash": "50fd4e976106a0bff6dae94ddafffb2de58ad8a8",
+        "partialHash": "50fd4e9",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-07T18:05:33.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-07T18:05:33.000Z",
+        "subject": "Added .github folder",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Added .github folder",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "431d7cb2846641c4f52d42443b4502835014554d",
+        "partialHash": "431d7cb",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-07T02:21:07.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-07T02:21:07.000Z",
+        "subject": "Test 1",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Test 1",
+        "breakingChange": false,
+        "ticketNumber": null
+      }
+    ]
+  }
+}
