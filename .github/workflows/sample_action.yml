@@ -2,18 +2,17 @@ name: Generate Release logs
 on:
   push:
     branches:
-      # branches in the case of PR specifies target/base branch
       - "release/**"
 
       # exclude bot pushes to avoid infinite loop
-    # paths-ignore:
-    #   - 'sample_action.yml'
+    paths-ignore:
+      - 'sample_action.yml'
 jobs:
   watch-changes-in-release-branch:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v1
       - name: Create File
         run: echo "Hello, World!" > example.txt
       - name: Commit Files
