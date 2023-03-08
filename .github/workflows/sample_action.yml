@@ -29,9 +29,14 @@ jobs:
           DAY: "${{ steps.current-time.outputs.day }}"
         run: echo "$TIME $R_TIME $F_TIME $YEAR $DAY" >> test.md
 
-      - name: Generate Comment String from Markdown
-        id: get-comment-content
-        uses: juliangruber/read-file-action@v1
+      # - name: Generate Comment String from Markdown
+      #   id: get-comment-content
+      #   uses: juliangruber/read-file-action@v1
+      #   with:
+      #     path: test.md
+
+      - name: Update PR body
+        uses: AsasInnab/pr-body-action@v1
         with:
           path: test.md
 
