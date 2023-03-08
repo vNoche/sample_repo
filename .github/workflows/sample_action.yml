@@ -39,22 +39,23 @@ jobs:
         with:
           path: test.md
 
-      # - name: Remove all labels
-      #   uses: actions/github-script@v6
-      #   with:
-      #     script: |
-      #       github.rest.issues.update({
-      #         issue_number: context.issue.number,
-      #         owner: context.repo.owner,
-      #         repo: context.repo.repo,
-      #         body: "${{ steps.get-comment-content.outputs.content }}"
-      #       })
-      - name: update-pull-request
-        uses: kt3k/update-pr-description@v1.0.1
+      - name: Remove all labels
+        uses: actions/github-script@v6
         with:
-          pr_body: "AHHAHAHAHAA"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          destination_branch: ${{ env.BRANCH_NAME }}
+          script: |
+            github.rest.issues.update({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: "HAHAHAHAH PLEASE WORK"
+            })
+      # - name: update-pull-request
+      #   uses: kt3k/update-pr-description@v1.0.1
+      #   with:
+      #     pr_body: "AHHAHAHAHAA"
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     destination_branch: ${{ env.BRANCH_NAME }}
+      #steps.get-comment-content.outputs.content
 
       - name: Update Unreleased Changelog
         env:
