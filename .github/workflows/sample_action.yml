@@ -12,13 +12,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
+
+      - name: Save branch name to github env variable
+        run: echo "BRANCH_NAME=${GITHUB_HEAD_REF}" >> $GITHUB_ENV
+
       - name: Create File
         run: echo "Hello, World!" > example.txt
       - name: Commit Files
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.email "bot@github.com"
           git config --global user.name "Bot"
           git add .
           git commit -m "Add example.txt"
-          git push https://${{ secrets.BOT_SECRET }}@github.com/bot@github.com/sample_repo.git HEAD:main
+          git push origin ${{ env.BRANCH_NAME }}
