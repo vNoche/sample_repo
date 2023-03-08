@@ -33,7 +33,7 @@ jobs:
         id: get-comment-content
         uses: juliangruber/read-file-action@v1
         with:
-          path: ./test.md
+          path: test.md
 
       - name: Update Unreleased Changelog
         env:
