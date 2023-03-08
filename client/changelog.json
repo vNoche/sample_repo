@@ -4,6 +4,581 @@
     "date": null,
     "commits": [
       {
+        "fullHash": "947d72e0f8759d5df9f3d6b4965b513c8dec353d",
+        "partialHash": "947d72e",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-08T20:31:01.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-08T20:31:01.000Z",
+        "subject": "Merge branch 'main' into release/tes1",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge branch 'main' into release/tes1",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "b6865b34ab5e897c51e36ab82e4a5175bea01d14",
+        "partialHash": "b6865b3",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-08T19:38:02.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-08T19:38:02.000Z",
+        "subject": "chore(app): add pacakge.json",
+        "body": "",
+        "tags": [],
+        "type": "chore",
+        "scope": "app",
+        "scopeText": "App",
+        "breakingChange": false,
+        "description": "add pacakge.json",
+        "ticketNumber": "No ticket"
+      },
+      {
+        "fullHash": "ad52a571ad095bf946ba6800f77bee624904f440",
+        "partialHash": "ad52a57",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-08T02:43:12.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-08T02:43:12.000Z",
+        "subject": "test9",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "test9",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "94ea44d433baa6031d4ca078dfe097974e68f313",
+        "partialHash": "94ea44d",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-08T02:25:41.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-08T02:25:41.000Z",
+        "subject": "test7",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "test7",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "8195f6b92bd8c32962940d6cad0f605d821a053b",
+        "partialHash": "8195f6b",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-08T02:24:47.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-08T02:24:47.000Z",
+        "subject": "BOOM",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "BOOM",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "649146cff146b46e8b144af5f0a04e2458fb9b38",
+        "partialHash": "649146c",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-08T02:24:04.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-08T02:24:04.000Z",
+        "subject": "HEY",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "HEY",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "af3227e4ec0105262394a5a7b4169cbf1552f0f9",
+        "partialHash": "af3227e",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-08T02:22:29.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-08T02:22:29.000Z",
+        "subject": "test6",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "test6",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "5d02d4ad87c61f20096f602c4b747ed95aba57d7",
+        "partialHash": "5d02d4a",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-08T02:18:48.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-08T02:18:48.000Z",
+        "subject": "test6",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "test6",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "3aee63b6e66ce631c2d280fac392aa9bf4e9f9d6",
+        "partialHash": "3aee63b",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-08T01:53:16.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-08T01:53:16.000Z",
+        "subject": "test6",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "test6",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "4a46ac3256382a41e65b5f8a3a047c300f451d94",
+        "partialHash": "4a46ac3",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-08T01:46:36.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-08T01:46:36.000Z",
+        "subject": "test5",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "test5",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "ca2f79f5f3b18ef71704c7639e4a346d05cf8033",
+        "partialHash": "ca2f79f",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-08T01:27:43.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-08T01:27:43.000Z",
+        "subject": "test3",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "test3",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "d686d4baaa334bbe056b53397e6dc350a18d05f1",
+        "partialHash": "d686d4b",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-08T01:20:13.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-08T01:20:13.000Z",
+        "subject": "test2",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "test2",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "12f45151976a1ee82eaa69fe6e8387ed00941b0f",
+        "partialHash": "12f4515",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-08T01:12:10.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-08T01:12:10.000Z",
+        "subject": "test",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "test",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "655865997d8695cda0199e528679b8386cd4200b",
+        "partialHash": "6558659",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-07T20:28:55.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-07T20:28:55.000Z",
+        "subject": "update yml4",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "update yml4",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "223ef4dfe5d2dc24ca414b375ca8bae0138df9a3",
+        "partialHash": "223ef4d",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-07T20:26:59.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-07T20:26:59.000Z",
+        "subject": "update yml3",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "update yml3",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "5dd741ac632a167e7bb45bb711fe1ed9ba846778",
+        "partialHash": "5dd741a",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-07T19:17:45.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-07T19:17:45.000Z",
+        "subject": "update yml2",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "update yml2",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "6bbcb3bf2c7a26a219e3bf740dff44fd0e7461a8",
+        "partialHash": "6bbcb3b",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-07T19:14:58.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-07T19:14:58.000Z",
+        "subject": "update yml",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "update yml",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "bd0916fccd2068fe39bdfe7116be04e9ac411211",
+        "partialHash": "bd0916f",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-07T19:13:06.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-07T19:13:06.000Z",
+        "subject": "update yml",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "update yml",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "4a6b3384d66037b68ad619b12eaef5c23081632d",
+        "partialHash": "4a6b338",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-07T18:47:47.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-07T18:47:47.000Z",
+        "subject": "GANA NA",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "GANA NA",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "6fc15b3ad37be2704aa3f115e03ac4d9d8f868dc",
+        "partialHash": "6fc15b3",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-07T18:35:39.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-07T18:35:39.000Z",
+        "subject": "YEYE",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "YEYE",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "f5d81bb0dd0b220679bba25b91c1baedd9417768",
+        "partialHash": "f5d81bb",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-07T18:32:23.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-07T18:32:23.000Z",
+        "subject": "yml",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "yml",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "b11075277be2a85c228690e7ebcbc2953b91c746",
+        "partialHash": "b110752",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-07T18:26:05.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-07T18:26:05.000Z",
+        "subject": "Hey",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Hey",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "1ea608fa483b724f458e261dd148c7e05b11c279",
+        "partialHash": "1ea608f",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-07T18:13:30.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-07T18:13:30.000Z",
+        "subject": "Boom",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Boom",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "23b4fa51bbd07a897c119edb35b734905e790217",
+        "partialHash": "23b4fa5",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-07T18:06:58.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-07T18:06:58.000Z",
+        "subject": "Merge branch 'release/tes1' of https://github.com/vNoche/sample_repo into release/tes1",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "//github.com/vNoche/sample_repo into release/tes1",
+        "ticketNumber": "No ticket"
+      },
+      {
+        "fullHash": "02faf877d292b7dc7dd00ff230a2a84bc61f8704",
+        "partialHash": "02faf87",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-07T18:06:35.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-07T18:06:35.000Z",
+        "subject": "Merge branch 'main' of https://github.com/vNoche/sample_repo into release/tes1",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "//github.com/vNoche/sample_repo into release/tes1",
+        "ticketNumber": "No ticket"
+      },
+      {
         "fullHash": "50fd4e976106a0bff6dae94ddafffb2de58ad8a8",
         "partialHash": "50fd4e9",
         "author": {
@@ -27,6 +602,98 @@
         "ticketNumber": null
       },
       {
+        "fullHash": "6e6bb24e05cd11646ada9f4d73ead70f3663a0a6",
+        "partialHash": "6e6bb24",
+        "author": {
+          "name": "vNoche",
+          "email": "107428696+vNoche@users.noreply.github.com"
+        },
+        "authorTime": "2023-03-07T02:25:52.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2023-03-07T02:25:52.000Z",
+        "subject": "Merge pull request #3 from vNoche/pr2",
+        "body": "TEst 2",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #3 from vNoche/pr2",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "066817e288585892268c26a3727b34a67ba23702",
+        "partialHash": "066817e",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-07T02:25:17.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-07T02:25:17.000Z",
+        "subject": "TEst 2",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "TEst 2",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "a43b88b8ad02e25fa29e365684ced94860f29517",
+        "partialHash": "a43b88b",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-07T02:23:27.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-07T02:23:27.000Z",
+        "subject": "Merge branch 'release/tes1' of https://github.com/vNoche/sample_repo into release/tes1",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "//github.com/vNoche/sample_repo into release/tes1",
+        "ticketNumber": "No ticket"
+      },
+      {
+        "fullHash": "5161a070c9826b13b9185f155251bf2f35020be4",
+        "partialHash": "5161a07",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-07T02:22:48.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-07T02:22:48.000Z",
+        "subject": "Merge branch 'main' of https://github.com/vNoche/sample_repo into release/tes1",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "//github.com/vNoche/sample_repo into release/tes1",
+        "ticketNumber": "No ticket"
+      },
+      {
         "fullHash": "431d7cb2846641c4f52d42443b4502835014554d",
         "partialHash": "431d7cb",
         "author": {
@@ -46,6 +713,52 @@
         "scope": null,
         "scopeText": null,
         "description": "Test 1",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "142f9c088eca53cd4d1ebf34deaa5bf5d66bb0ae",
+        "partialHash": "142f9c0",
+        "author": {
+          "name": "vNoche",
+          "email": "107428696+vNoche@users.noreply.github.com"
+        },
+        "authorTime": "2023-03-07T02:16:27.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2023-03-07T02:16:27.000Z",
+        "subject": "Merge pull request #2 from vNoche/pr1",
+        "body": "pr1",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #2 from vNoche/pr1",
+        "breakingChange": false,
+        "ticketNumber": null
+      },
+      {
+        "fullHash": "6f425b9feb316cbf25f6db349f91a67991c96ace",
+        "partialHash": "6f425b9",
+        "author": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "authorTime": "2023-03-07T02:15:57.000Z",
+        "committer": {
+          "name": "Marvin",
+          "email": "marvinnoche@avb.net"
+        },
+        "commitTime": "2023-03-07T02:15:57.000Z",
+        "subject": "pr1",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "pr1",
         "breakingChange": false,
         "ticketNumber": null
       }
