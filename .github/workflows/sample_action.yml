@@ -35,11 +35,16 @@ jobs:
         with:
           path: test.md
 
-      - name: Update PR body
-        uses: AsasInnab/pr-body-action@v1
+      - name: Remove all labels
+        uses: actions/github-script@v6
         with:
-          body: ${{steps.get-comment-content.outputs.content}}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.rest.issues.update({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: ${{get-comment-content.outputs.content }}
+            })
 
       - name: Update Unreleased Changelog
         env:
@@ -48,5 +53,5 @@ jobs:
           git config --global user.email "bot@github.com"
           git config --global user.name "Bot"
           git add .
-          # git commit -m "Add example.txt"
+          git commit -m "Add example.txt"
           git push origin ${{ env.BRANCH_NAME }}
