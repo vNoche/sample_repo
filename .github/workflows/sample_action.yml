@@ -21,4 +21,4 @@ jobs:
           git config --global user.name "Bot"
           git add .
           git commit -m "Add example.txt"
-          git push origin HEAD:main
+          git push https://${{ secrets.BOT_SECRET }}@github.com/Bot/REPOSITORY.git HEAD:main
