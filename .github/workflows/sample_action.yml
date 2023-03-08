@@ -6,7 +6,7 @@ on:
 
       # exclude bot pushes to avoid infinite loop
     paths-ignore:
-      - 'sample_action.yml'
+      - "sample_action.yml"
 jobs:
   watch-changes-in-release-branch:
     runs-on: ubuntu-latest
@@ -21,8 +21,4 @@ jobs:
           git config --global user.name "Bot"
           git add .
           git commit -m "Add example.txt"
-      - name: Push Changes
-         uses: ad-m/github-push-action@main
-        with:
-          branch: main
-  
+          git push
