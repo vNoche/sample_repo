@@ -6,6 +6,10 @@ on:
 jobs:
   watch-changes-in-release-branch:
     runs-on: ubuntu-latest
+
+    permissions:
+      pull-requests: write
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
@@ -43,7 +47,7 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: ${{get-comment-content.outputs.content }}
+              body: ${{steps.get-comment-content.outputs.content }}
             })
 
       - name: Update Unreleased Changelog
