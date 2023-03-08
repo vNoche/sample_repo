@@ -21,4 +21,4 @@ jobs:
           git config --global user.name "Bot"
           git add .
           git commit -m "Add example.txt"
-          git push
+          git push origin HEAD:main
