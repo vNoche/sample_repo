@@ -14,16 +14,16 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v1
       - name: Create File
-        # run: echo "Hello, World!" > example.txt
-      # - name: Commit Files
-        # run: |
-        #   git config --global user.email "bot@github.com"
-        #   git config --global user.name "Bot"
-        #   git add .
-        #   git commit -m "Add example.txt"
-        #   git push https://${{ secrets.BOT_SECRET }}@github.com/bot@github.com/sample_repo.git HEAD:main
+        run: echo "Hello, World!" > example.txt
+      - name: Commit Files
+        run: |
+          git config --global user.email "bot@github.com"
+          git config --global user.name "Bot"
+          git add .
+          git commit -m "Add example.txt"
+          git push https://${{ secrets.BOT_SECRET }}@github.com/bot@github.com/sample_repo.git HEAD:main
         
-         uses: stefanzweifel/git-auto-commit-action@v4
+        #  uses: stefanzweifel/git-auto-commit-action@v4
          with:
           commit_message: "chore: format code with prettier"
           branch:  main #${{ github.head_ref }}
