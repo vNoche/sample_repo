@@ -7,19 +7,64 @@ on:
       - 'release/**'
 jobs:
   watch-changes-in-release-branch:
-     runs-on: ubuntu-latest
-     steps:
+    runs-on: ubuntu-latest
+
+    permissions:
+      pull-requests: write
+
+    steps:
       - name: Checkout Code
         uses: actions/checkout@v2
-      - name: Create File
-        run: echo "Hello, World!" > example.txt
-      - name: Commit Files
-        run: |
-          git config --global user.email "bot@github.com"
-          git config --global user.name "Bot"
-          git add .
-          git commit -m "Add example.txt"
-      - name: Push Changes
-        uses: ad-m/github-push-action@master
+
+      - name: Save branch name to github env variable
+        run: echo "BRANCH_NAME=${GITHUB_HEAD_REF}" >> $GITHUB_ENV
+
+      - name: Get current time
+        uses: josStorer/get-current-time@v2
+        id: current-time
         with:
-          branch: main
+          format: YYYYMMDD-HH
+          utcOffset: "+08:00"
+
+      - name: Use current time
+        env:
+          TIME: "${{ steps.current-time.outputs.time }}"
+          R_TIME: "${{ steps.current-time.outputs.readableTime }}"
+          F_TIME: "${{ steps.current-time.outputs.formattedTime }}"
+          YEAR: "${{ steps.current-time.outputs.year }}"
+          DAY: "${{ steps.current-time.outputs.day }}"
+        run: echo "$TIME $R_TIME $F_TIME $YEAR $DAY" >> test.md
+
+      - name: Generate Comment String from Markdown
+        id: get-comment-content
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: test.md
+
+      # - name: Remove all labels
+      #   uses: actions/github-script@v6
+      #   with:
+      #     script: |
+      #       github.rest.issues.update({
+      #         issue_number: context.issue.number,
+      #         owner: context.repo.owner,
+      #         repo: context.repo.repo,
+      #         body: "HAHAHAHAH PLEASE WORK"
+      #       })
+      - name: update-pull-request
+        uses: kt3k/update-pr-description@v1.0.1
+        with:
+          pr_body: "AHHAHAHAHAA"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          destination_branch: ${{ env.BRANCH_NAME }}
+      steps.get-comment-content.outputs.content
+
+      # - name: Update Unreleased Changelog
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   run: |
+      #     git config --global user.email "bot@github.com"
+      #     git config --global user.name "Bot"
+      #     git add .
+      #     git commit -m "Add example"
+      #     git push origin ${{ env.BRANCH_NAME }}
