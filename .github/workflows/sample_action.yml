@@ -1,7 +1,6 @@
 name: 'Generate Release logs',
 on:
-  pull_request:
-      - opened
+  push:
     branches:
       # branches in the case of PR specifies target/base branch
       - 'release/**'
